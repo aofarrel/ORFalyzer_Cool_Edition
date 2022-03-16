@@ -1,0 +1,6 @@
+version: 1.2
+tools:
+   - subclass: CWL
+     primaryDescriptorPath: /orfalyzer.cwl
+     testParameterFiles:
+         - /inputs-remote.json
